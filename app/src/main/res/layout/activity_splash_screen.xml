@@ -4,17 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".splashScreen">
 
-
-
-    <FrameLayout
-        android:id="@+id/framelayout"
-        android:name="com.example.comicapp.view.homeFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="2dp" >
-
-    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
