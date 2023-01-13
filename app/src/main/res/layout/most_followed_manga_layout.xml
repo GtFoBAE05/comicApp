@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/numberTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="2"
+            android:includeFontPadding="false"
+            android:text="1" />
+
+        <ImageView
+            android:id="@+id/mostFollowedMangaImageView"
+            android:layout_width="29dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="319dp"
+            android:layout_height="39dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mostFollowedTitleTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/mostFollowedGenreTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

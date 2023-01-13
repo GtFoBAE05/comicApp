@@ -2,19 +2,17 @@ package com.example.comicapp.view.adapter
 
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.comicapp.R
-import com.example.comicapp.databinding.TrendingLayoutBinding
+import com.example.comicapp.databinding.HighestRatingLayoutBinding
 import com.example.comicapp.model.manga
 
-class trendingComicAdapter(val data:List<manga>):RecyclerView.Adapter<trendingComicAdapter.trendingViewHolder>() {
-    inner class trendingViewHolder(itemView: TrendingLayoutBinding):RecyclerView.ViewHolder(itemView.root){
+class highestRatingAdapter(val data:List<manga>):RecyclerView.Adapter<highestRatingAdapter.trendingViewHolder>() {
+    inner class trendingViewHolder(itemView: HighestRatingLayoutBinding):RecyclerView.ViewHolder(itemView.root){
 
         val imageCover:ImageView = itemView.imageView
         val title:TextView = itemView.title
@@ -29,7 +27,7 @@ class trendingComicAdapter(val data:List<manga>):RecyclerView.Adapter<trendingCo
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): trendingViewHolder {
-        return trendingViewHolder(TrendingLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false))
+        return trendingViewHolder(HighestRatingLayoutBinding.inflate(LayoutInflater.from(parent.context),parent,false))
     }
 
     override fun onBindViewHolder(holder: trendingViewHolder, position: Int) {

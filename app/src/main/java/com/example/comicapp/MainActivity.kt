@@ -7,7 +7,6 @@ import android.widget.TextView
 import androidx.fragment.app.FragmentTransaction
 import com.example.comicapp.databinding.ActivityMainBinding
 import com.example.comicapp.model.manga
-import com.example.comicapp.model.response
 import com.example.comicapp.service.instance
 import com.example.comicapp.view.homeFragment
 import retrofit2.Call
